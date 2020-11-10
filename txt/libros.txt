@@ -1,0 +1,152 @@
+﻿<!----Pagina libros.html Creacion Ander y Jonatan --->
+
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+	<title>Harry Potter 1DAM</title>
+	<link rel = "shortcut icon" href = "./img/HP.ico" type = "image/ico"/>
+	<!-- Linkeo de CSS -->	
+	<link rel = "stylesheet" type = "text/css" href = "./css/reto.css">
+</head>
+<body>
+
+<!------------------------------------------------ Cabecera (Header) -------------------------------------------------------->	
+<header>
+
+<!-- Menu secundario de registro y usuario -->
+	<nav>
+		<ul>
+			<li class = "menu-nave"><a href = "acceder.html">Acceder</a></li>
+			<li class = "menu-nave"><a href = "registrarse.html">Registrarse</a></li>
+		</ul>		
+	</nav>
+
+	<!-- Banner -->
+    <img src = "./img/bannerharry.jpg" alt = "BannerHarry" width = "100%" />
+</header> 
+
+<!--------------------------------------------- Menu principal ----------------------------------------------------->
+    <nav>
+		<ul class = "menu-nav">
+			<li class = "menu-nave"><a href = "index.html">Inicio</a></li>
+			<li class = "menu-nave"><a href = "peliculas.html">Peliculas</a></li>
+			<li class = "dropdown">
+				<a href = "libros.html">Libros</a>
+				<div class = "dropdown-content">
+					<a href = "jk.html">J.K. Rowling</a>
+				</div>
+			 </li>
+			 <li class = "dropdown">
+				<a href = "actores.html">Actores Principales</a>
+				<div class = "dropdown-content">
+					<a href = "harry.html"> Daniel Radcliffe (Harry Potter)</a>
+					<a href = "hermione.html"> Emma Watson (Hermione Granger)</a>
+					<a href = "ron.html"> Rupert Grint (Ron Weasley)</a>
+				</div>
+			 </li>
+			 <li class = "menu-nave"><a href = "sobrenosotros.html">Sobre nosotros</a></li>
+			 <li class = "cuenta">
+			 </li>
+		</ul>		
+	</nav>
+	<div class = "contenedor">
+
+<!--------------------------------------------- Articulo (Article) ----------------------------------------------------->
+	<article style = " background-image: url('./img/fondoarticle.jpg')">
+			<p>	
+			<h1>Libros de la saga de Harry Potter</h1>
+			<table border = "2" cellpadding = "3" cellspacing = "0" align = "center" style = "margin: 1em 1em 1em 0; border: 3px #aaa solid;border-collapse: collapse; font-size: 90%;">
+			<tbody>
+				<tr bgcolor = "#CCCCCC">
+					<th align = "center" width = "30px">Año</th>
+					<th align = "center" width = "210px">Título original</th>
+					<th align = "center" width = "210px">Título en España</th>
+					<th align = "center" width = "210px">Descripción</th>
+					<th align = "center" width = "110px">Foto del libro</th>
+				</tr>
+				<tr>
+					<td><h4>1997</h4></td>
+					<td text align = "center"><h3>Harry Potter and the Philosopher's Stone</h3></td>
+					<td text align = "center"> <h3> Harry Potter y la piedra filosofal</h3></td>
+					<td><p>Harry Potter es un huérfano que vive con sus desagradables tíos, los Dursley, y su repelente primo Dudley. Se acerca su decimoprimero cumpleaños y tiene pocas esperanzas de recibir algún regalo, ya que nunca nadie se acuerda de él. Sin embargo, pocos días antes de su cumpleaños, una serie de misteriosas cartas dirigidas a él y escritas con una estridente tinta verde rompen la monotonía de su vida: Harry es un mago y sus padres también lo eran. Dolido con sus tíos por haberle ocultado sus orígenes y en vista de que el mundo normal no le ofrece grandes oportunidades, Harry acepta ir a Hogwarts. Allí conocerá a los que serán sus grandes amigos, Hermione Granger y Ron Weasley. Junto a sus nuevos amigos, vivirá una fabulosa aventura que supera con creces la más desbordante imaginación.</p></td>
+					<td><a href = "https://www.amazon.es/Harry-Potter-Piedra-Filosofal-Rowling/dp/8478884459/ref=sr_1_1?s=books&ie=UTF8&qid=1542099169&sr=1-1&keywords=harry+potter+y+la+piedra+filosofal" target = "_blank"><img src = "./img/libro1.jpg" class = "libro"></a></td>
+				</tr>
+				<tr>
+					<td><h4>1998</h4></td>
+					<td text align = "center"><h3>Harry Potter and the Chamber of Secrets</h3></td>
+					<td text align = "center"><h3>Harry Potter y la cámara secreta</h3></td>
+					<td><p>Tras derrotar una vez más a Lord Voldemort, su siniestro enemigo en Harry Potter y la piedra filosofal, Harry espera impaciente en casa de sus insoportables tíos el inicio del segundo curso del Colegio Hogwarts de Magia y Hechicería. Sin embargo, la espera dura poco, pues un elfo aparece en su habitación y le advierte que una amenaza mortal se cierne sobre la escuela. Así pues, Harry no se lo piensa dos veces y, acompañado de Ron, su mejor amigo, se dirige a Hogwarts en un coche volador. Pero ¿puede un aprendiz de mago defender la escuela de los malvados que pretenden destruirla? Sin saber que alguien ha abierto la Cámara de los Secretos, dejando escapar una serie de monstruos peligrosos, Harry Potter y sus amigos Ron y Hermione tendrán que enfrentarse con arañas gigantes, serpientes encantandas, fantasmas enfurecidos y, sobre todo, con la mismísima reencarnación de su más temible adversario.</p></td>
+					<td><a href = "https://www.amazon.es/Harry-Potter-y-Camara-Secreta/dp/8478884955/ref=sr_1_1?s=books&ie=UTF8&qid=1542099304&sr=1-1&keywords=harry+potter+y+la+camara+secreta" target = "_blank"><img src = "./img/libro2.jpg" class = "libro"></a></td>
+				</tr>
+				<tr>
+					<td><h4>1999</h4></td>
+					<td text align = "center"><h3>Harry Potter and the Prisoner of Azkaban</h3></td>
+					<td text align = "center"><h3>Harry Potter y el prisionero de Azkaban</h3></td>
+					<td><p>Harry Potter y el prisionero de Azkaban es una película británica estrenada en el año 2004. Dirigida por Alfonso Cuarón (Hijos de los hombres, Gravity), Harry Potter y el prisionero de Azkaban es la adaptación cinematográfica del libro homónimo escrito por J.K. Rowling, siendo el tercer largometraje de la saga de películas de Harry Potter en el cine. Harry Potter y el prisionero de Azkaban cuenta en su reparto con Daniel Radcliffe (La mujer de negro, Horns), Rupert Grint (Moonwalkers), Emma Watson (Noé, Regresión, La bella y la bestia), Robbie Coltrane (Effie Gray), Gary Oldman (El caballero oscuro, Drácula de Bram Stoker), Maggie Smith (Downton Abbey) y Alan Rickman (Love Actually, El perfume), entre otros. Harry Potter y el prisionero de Azkaban se centra en el tercer año de Harry Potter en Hogwarts, presentando a nuevos personajes como el Sirius Black. La película destacó por su tono oscuro con respecto a las dos anteriores, dirigidas por Chris Columbus.</p></td>
+					<td><a href = "https://www.amazon.es/Harry-Potter-Prisionero-Azkaban-Rowling/dp/8478885196/ref=sr_1_1?s=books&ie=UTF8&qid=1542099572&sr=1-1&keywords=harry+potter+y+el+prisionero+de+azkaban" target = "_blank"><img src = "./img/libro3.jpg" class = "libro"></a></td>
+				</tr>
+				<tr>
+					<td><h4>2000</h4></td>
+					<td text align = "center"><h3>Harry Potter and the Goblet of Fire</h3></td>
+					<td text align = "center"><h3>Harry Potter y el cáliz de fuego</h3></td>
+					<td><p>Tras otro abominable verano con los Dursley, Harry se dispone a iniciar el cuarto curso en Hogwarts, la famosa escuela de magia y hechicería. A sus catorce años, a Harry le gustaría ser un joven mago como los demás y dedicarse a aprender nuevos sortilegios, encontrarse con sus amigos Ron y Hermione y asistir con ellos a los Mundiales de quidditch. Sin embargo, al llegar al colegio lo espera una gran sorpresa que lo obligará a enfrentarse a los desafíos más temibles de toda su vida. Si logra superarlos, habrá demostrado que ya no es un niño y que está preparado para vivir las nuevas y emocionantes experiencias que el futuro le depara.</p></td>
+					<td><a href = "https://www.amazon.es/Harry-Potter-Caliz-Fuego-Rowling/dp/8478886451/ref=sr_1_1?s=books&ie=UTF8&qid=1542099596&sr=1-1&keywords=harry+potter+y+el+caliz+de+fuego" target = "_blank"><img src = "./img/libro4.jpg" class = "libro"></a></td>
+				</tr>
+				<tr>
+					<td><h4>2003</h4></td>
+					<td text align = "center"><h3>Harry Potter and the Order of the Phoenix</h3></td>
+					<td text align = "center"><h3>Harry Potter y la Orden del Fénix</h3></td>
+					<td><p>Las tediosas vacaciones en casa de sus tíos todavía no han acabado y Harry Potter se encuentra más inquieto que nunca. Apenas ha tenido nocitias de Ron y Hermiones, y presiente que algo extraño está sucediendo en Hogwarts. En efecto, cuando por fin comienza otro curso en el famoso colegio de magia y hechicería, sus temores se vuelven realidad. El Ministerio de Magia niega que Voldemort haya regresado y ha iniciado una campaña de desprestigio contra Harry Potter y Dumbledore, para lo cual ha asignado a la horrible profesora Dolores Umbridge la tarea de vigilar todos sus movimientos. Así pues, además de sentirse solo e incomprendido, Harry sospecha que Voldemort puede adivinar sus pensamientos, e intuye que el temible mago trata de apoderarse de un objeto secreto que le permitiría recuperar su poder destructivo.</p></td>
+					<td><a href = "https://www.amazon.es/Harry-Potter-Orden-Del-Fenix/dp/8478887423/ref=sr_1_1?s=books&ie=UTF8&qid=1542099687&sr=1-1&keywords=harry+potter+y+la+orden+del+fenix" target = "_blank"><img src = "./img/libro5.jpg" class = "libro"></a></td>
+				</tr>
+				<tr>
+					<td><h4>2005</h4></td>
+					<td text align = "center"><h3>Harry Potter and the Half-Blood Prince</h3></td>
+					<td text align = "center"><h3>Harry Potter y el misterio del príncipe</h3></td>
+					<td><p>Con dieciséis años cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. Elegido capitán del equipo de Quidditch, los entrenamientos, los exámenes y las chicas ocupan todo su tiempo, pero la tranquilidad dura poco. A pesar de los férreos controles de seguridad que protegen la escuela, dos alumnos son brutalmente atacados. Dumbledore sabe que se acerca el momento, anunciado por la Profecía, en que Harry y Voldemort se enfrentarán a muerte: «El único con poder para vencer al Señor Tenebroso se acerca... Uno de los dos debe morir a manos del otro, pues ninguno de los dos podrá vivir mientras siga el otro con vida.». El anciano director solicitará la ayuda de Harry y juntos emprenderán peligrosos viajes para intentar debilitar al enemigo, para lo cual el joven mago contará con la ayuda de un viejo libro de pociones perteneciente a un misterioso príncipe, alguien que se hace llamar Príncipe Mestizo.</p></td>
+					<td><a href = "https://www.amazon.es/Potter-misterio-pr%C3%ADncipe-Letras-Bolsillo/dp/8498383633/ref=sr_1_1?s=books&ie=UTF8&qid=1542099726&sr=1-1&keywords=harry+potter+y+el+misterio+del+principe" target = "_blank"><img src = "./img/libro6.jpg" class = "libro"></a></td>
+				</tr>
+				<tr>
+					<td><h4>2008</h4></td>
+					<td text align = "center"><h3>Harry Potter and the Deathly Hallows</h3></td>
+					<td text align = "center"><h3>Harry Potter y las Reliquias de la Muerte</h3></td>
+					<td><p>Harry tiene que realizar una tarea siniestra, peligrosa y aparentemente imposible: el de localizar y de destruir a Horcruxes. Harry nunca se sintió tan sólo ni se enfrentó a un futuro tan incierto. Pero Harry debe encontrar la fuerza necesaria para terminar la tarea que le han dado. Él debe dejar el calor, la seguridad y el compañerismo de La Madriguera y seguir sin miedo el camino inexorable marcado para él. En este final, la séptima entrega de la serie Harry Potter, J.K. Rowling revela de manera espectacular las respuestas a las muchas preguntas que se han estado esperando con tanta impaciencia. Su rica prosa y su narrativa, llena de giros inesperados, han hecho que estos libros sean libro para leer y releer una y otra vez.</p></td>
+					<td><a href = "https://www.amazon.es/Harry-Potter-las-Reliquias-Muerte/dp/8498381401/ref=sr_1_1?s=books&ie=UTF8&qid=1542099809&sr=1-1&keywords=harry+potter+y+las+reliquias+de+la+muerte"  target = "_blank"><img src = "./img/libro7.jpg" class = "libro"></a></td>
+				</tr>
+				<tr>
+					<td><h4>2016</h4></td>
+					<td text align = "center"><h3>Harry Potter and the Cursed Child</h3></td>
+					<td text align = "center"><h3>Harry Potter y el legado maldito</h3></td>
+					<td><p>Ser Harry Potter nunca ha sido tarea fácil, menos aún desde que se ha convertido en un atareadísimo empleado del Ministerio de Magia, un hombre casado y padre de tres hijos. Y si Harry planta cara a un pasado que se resiste a quedar atrás, su hijo mayor, Albus Severus, ha de luchar contra el peso de una herencia familiar de la que él nunca ha querido saber nada. Cuando el destino conecte el pasado con el presente, padre e hijo deberán afrontar una verdad muy incómoda: a veces, la oscuridad surge de los lugares menos pensados.</p></td>
+					<td><a href = "https://www.amazon.es/Harry-Potter-legado-maldito-Rowling/dp/849838754X" target = "_blank"><img src = "./img/libro8.jpg" class = "libro"></a></td>
+				</tr>
+			</tbody>
+		</table>
+		</p>
+		</article>
+
+<!----------------------------------------- Barra de anuncios (Aside) ----------------------------------------------------->		
+	<aside style = " background-image: url('./img/fondotienda.png')" class = "aside1">
+		<h1>Tienda Online (AMAZON)</h1>
+		<a href = 'https://www.amazon.es/Harry-Potterr-SUDADERA-CAPUCHA-HOGWARTS/dp/B075QLW8J5/ref=sr_1_19?ie=UTF8&qid=1540887440&sr=8-19&keywords=harry+potter' target = "_blank"><img src = "./img/sudadera harry.png" alt = "Sudadera" class = "sudadera"></a>
+		<h4>Sudadera de Hogwarts</h4>
+		<a href = 'https://www.amazon.es/Harry-Potter-Cinereplicas-Gryffindor-Purple/dp/B00IYIENWQ/ref=sr_1_4?ie=UTF8&qid=1540887440&sr=8-4&keywords=harry+potter' target = "_blank"><img src = "./img/bufanda.png" alt = "Bufanda" class = "bufanda"></a>
+		<h4>Bufanda de Gryffindor</h4>
+		<a href = 'https://www.amazon.es/Noble-Collection-NN8415-Varita-resina/dp/B004GWYC1G/ref=sr_1_3?ie=UTF8&qid=1540889275&sr=8-3&keywords=varita+harry+potter' target = "_blank"><img src = "./img/varita.png" alt = "Varita" class = "varita"></a>
+		<h4>Varita de Harry Potter</h4>
+		</aside>
+
+<!----------------------------------------- Barra casas de howards (Footer) ----------------------------------------------------->		
+		<footer style = " background-image: url('./img/gorrete.png')" width = "100%">
+			<h3>Casas de Hogwarts</h3>
+			<a href = 'https://es.wikipedia.org/wiki/Gryffindor' target = "_blank"> <img src = "./img/Gryffindor.png" alt = "Gryffindor" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Hufflepuff' target = "_blank"><img src = "./img/Hufflepuff.png" alt = "Hufflepuff" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Ravenclaw' target = "_blank"><img src = "./img/Ravenclaw.png" alt = "Ravenclaw" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Slytherin' target = "_blank"><img src = "./img/Slytherin.png" alt = "Slytherin" hspace = "60px"></a>
+		</footer>
+
+<!----------------------------------------- Firma y coyrigth (Footer)2 ----------------------------------------------------->		
+		<footer class = "footer2" style = " background-image: url('./img/fondofooter2.jpeg')">Creada por el grupo de 1DAM del CIFP Tartanga LHII y formado por: Jonatan Jiménez, Ander Valero, Eneko Ortiz y Pablo Angulo. Copyrigth derechos reservados 2018</footer>
+	</div>
+</body>
+</html>

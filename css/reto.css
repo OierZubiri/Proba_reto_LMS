@@ -1,0 +1,189 @@
+*{
+
+}
+
+header{
+	text-align: right;
+	background: black;
+}
+
+nav{
+
+}
+
+.menu-nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.menu-nave {
+	display: inline;				
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 12px 16px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown:hover {
+	background-color: red;
+}
+
+.cuenta{
+	width: left;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: grey;
+	min-width: 100px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: LightGrey;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.miembros{
+	list-style-type: square;
+}
+
+
+
+footer, aside, article {
+	padding: 10px;
+}
+			
+			
+.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+			
+footer {
+	flex: 1 1 100%;
+	text-align: right;
+	color: white;
+
+}
+h3{
+	text-align: center;
+}
+
+.footer2 {
+	flex: 1 1 100%;
+	color:white;
+	text-align:center;
+}
+
+aside {
+	display: flex;
+	flex: 1 1 0px;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 50px;
+	background-image: url("../img/fondotienda.png");
+ 	background-repeat: no-repeat;
+ 	background-color: #F5F5DC;
+}
+
+.sudadera,.bufanda,.varita{
+	width: 200px;
+}
+
+article {
+	flex: 3 1 0px;
+}
+
+.Sinopsis{
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+
+}
+
+.Subtitulos{
+	text-align: left;
+}
+
+.indicepj{
+	text-align: left;
+}
+			
+.personajes{
+	color: black;
+}
+
+.libro{
+	width: 100px;
+}
+
+.youtube{
+	width:620px; 
+	height:370px; 
+}			
+
+.person{
+	width:500px;
+	height:400px;
+}
+
+.princi{
+	width:270px;
+}
+
+.otros{
+	width:100px;
+}
+
+.txt{
+	width:1375px; 
+	height:600px; 
+}
+header 	{ order: 1; }
+article { order: 2; }				
+.aside1 { order: 3; }
+footer  { order: 4; }
+.footer2 { order: 5; }
+			
+@media all and (max-width: 800px) {
+	header 	{ order: 1; }
+	article { order: 2; }				
+	.aside1 { order: 3; }
+	footer  { order: 4; }
+	.footer2 { order: 5; }
+				
+	article {
+		flex: 1 1 100%;
+	}				
+}
+			
+@media all and (max-width: 600px) {
+	.contenedor { 
+		flex-direction: column;					
+	}				
+}

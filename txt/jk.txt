@@ -1,0 +1,136 @@
+﻿<!----Pagina jk.html Creacion Ander --->
+
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+	<title>Harry Potter 1DAM</title>
+	<link rel = "shortcut icon" href = "./img/HP.ico" type = "image/ico"/>
+	<!-- Linkeo de CSS -->	
+	<link rel = "stylesheet" type = "text/css" href = "./css/reto.css">
+</head>
+<body>
+
+<!------------------------------------------------ Cabecera (Header) -------------------------------------------------------->	
+<header>
+
+<!-- Menu secundario de registro y usuario -->
+	<nav>
+		<ul>
+			<li class = "menu-nave"><a href = "acceder.html">Acceder</a></li>
+			<li class = "menu-nave"><a href = "registrarse.html">Registrarse</a></li>
+		</ul>		
+	</nav>
+
+	<!-- Banner -->
+    <img src = "./img/bannerharry.jpg" alt = "BannerHarry" width = "100%" />
+</header> 
+
+<!--------------------------------------------- Menu principal ----------------------------------------------------->
+    <nav>
+		<ul class = "menu-nav">
+			<li class = "menu-nave"><a href = "index.html">Inicio</a></li>
+			<li class = "menu-nave"><a href = "peliculas.html">Peliculas</a></li>
+			<li class = "dropdown">
+				<a href = "libros.html">Libros</a>
+				<div class = "dropdown-content">
+					<a href = "jk.html">J.K. Rowling</a>
+				</div>
+			 </li>
+			 <li class = "dropdown">
+				<a href = "actores.html">Actores Principales</a>
+				<div class = "dropdown-content">
+					<a href = "harry.html"> Daniel Radcliffe (Harry Potter)</a>
+					<a href = "hermione.html"> Emma Watson (Hermione Granger)</a>
+					<a href = "ron.html"> Rupert Grint (Ron Weasley)</a>
+				</div>
+			 </li>
+			 <li class = "menu-nave"><a href = "sobrenosotros.html">Sobre nosotros</a></li>
+			 <li class = "cuenta">
+			 </li>
+		</ul>		
+	</nav>
+	<div class = "contenedor">
+
+<!--------------------------------------------- Articulo (Article) ----------------------------------------------------->
+	<article style = " background-image: url('./img/fondoarticle.jpg')">
+			<h1>J. K. Rowling</h1>
+			<img src = "./img/J.K.Rowling.jpg" class = "princi">
+			<h3>Informacion general</h3>
+			<p>
+				Joanne Rowling (Yate, South Gloucestershire, Reino Unido, 31 de julio de 1965), quien escribe bajo los seudónimos J. K. Rowling6 y Robert Galbraith, es una escritora, productora de cine británica y guionista, conocida por ser la autora de la serie de libros Harry Potter, Animales fantásticos y dónde encontrarlos, Quidditch a través de los tiempos y Los cuentos de Beedle el Bardo, que juntos han superado los quinientos millones de ejemplares vendidos.
+			</p>
+			<p>
+				Este éxito literario supuso que la Sunday Times Rich List de 2008 estimase la fortuna de Rowling en 560 millones de libras, lo que la situó como la duodécima mujer más rica en el Reino Unido. Asimismo, Forbes ubicó a Rowling en el cuadragésimo puesto en su lista de las celebridades más poderosas de 2007, y la revista Time la seleccionó como «Personaje del Año» en el mismo año, resaltando la inspiración social, moral y política que le ha dado a los personajes de Harry Potter.
+			</p>
+			<p>
+				Rowling es una conocida filántropa que apoya instituciones de caridad como Comic Relief, One Parent Families y Multiple Sclerosis Society of Great Britain.
+			</p>
+
+			<h1>Otros libros de JK</h1>
+			
+			<table border = "2" cellpadding = "3" cellspacing = "0" align = "center" style = "margin: 1em 1em 1em 0; border: 3px #aaa solid;border-collapse: collapse; font-size: 90%;">
+			<tbody>
+				<tr bgcolor = "#CCCCCC">
+					<th align = "center" width = "30px">Año</th>
+					<th align = "center" width = "210px">Título original</th>
+					<th align = "center" width = "210px">Título en España</th>
+					<th align = "center" width = "210px">Descripción</th>
+					<th align = "center" width = "110px">Foto del libro</th>
+				</tr>
+				<tr>
+					<td><h4>2001</h4></td>
+					<td text align = "center"><h3>Fantastic Beasts and Where to Find Them</h3></td>
+					<td text align = "center"> <h3>Animales fantásticos y dónde encontrarlos</h3></td>
+					<td><p margin = >Animales fantásticos y dónde encontrarlos contiene la historia de la magizoología y describe las 75 especies mágicas encontradas alrededor del mundo. Scamander dice que recolectó la mayoría de la información encontrada en el libro a través de observaciones hechas en años de viajes por los cinco continentes. Él nota que la primera edición fue encargada en 1918 por el señor Augustus Worme de Obscurus Books. Sin embargo, no fue publicado hasta 1927. Ahora está en su quincuagésima segunda edición.</p></td>
+					<td><a href = "https://www.amazon.es/Animales-fantasticos-encontrarlos-original-Juvenil/dp/8498387906/ref=sr_1_1?ie=UTF8&qid=1542699449&sr=8-1&keywords=ANIMALES+FANTASTICOS+Y+DONDE+ENCONTRARLOS"><img src = "./img/libro9.jpg" class = "otros"></a></td>
+				</tr>
+				<tr>
+					<td><h4>2001</h4></td>
+					<td text align = "center"><h3>Quidditch Through the Ages</h3></td>
+					<td text align = "center"><h3>Quidditch a través de los tiempos</h3></td>
+					<td><p>En 2001, Rowling escribió dos libros complementarios a la serie Harry Potter, Quidditch a través de los tiempos y Animales fantásticos y dónde encontrarlos, para la caridad británica y ramificación de Live Aid, Comic Relief con todos sus derechos de autor yendo a la caridad. Hasta julio de 2008, se estima que ambos libros juntos han recaudado más de 30 millones de dólares para Comic Relief.4​ Ambos libros han estado a la venta en tapa dura desde entonces.</p></td>
+					<td><a href = "https://www.amazon.es/Quidditch-trav%C3%A9s-tiempos-Letras-Bolsillo/dp/8498382696/ref=sr_1_1?s=books&ie=UTF8&qid=1542699435&sr=1-1&keywords=animales+fantasticos+y+donde+encontrarlos&refinements=p_lbr_books_authors_browse-bin%3AJ.+K.+Rowling"><img src = "./img/libro10.jpg" class = "otros"></a></td>
+				</tr>
+				<tr>
+					<td><h4>2008</h4></td>
+					<td text align = "center"><h3>The Tales of Beedle the Bard </h3></td>
+					<td text align = "center"><h3>Los cuentos de Beedle el Bardo</h3></td>
+					<td><p>Tras otro abominable verano con los Dursley, Harry se dispone a iniciar el cuarto curso en Hogwarts, la famosa escuela de magia y hechicería. A sus catorce años, a Harry le gustaría ser un joven mago como los demás y dedicarse a aprender nuevos sortilegios, encontrarse con sus amigos Ron y Hermione y asistir con ellos a los Mundiales de quidditch. Sin embargo, al llegar al colegio lo espera una gran sorpresa que lo obligará a enfrentarse a los desafíos más temibles de toda su vida. Si logra superarlos, habrá demostrado que ya no es un niño y que está preparado para vivir las nuevas y emocionantes experiencias que el futuro le depara.</p></td>
+					<td><a href = "https://www.amazon.es/CUENTOS-BEEDLE-BARDO-Nva-Juvenil/dp/8498387930/ref=sr_1_1?ie=UTF8&qid=1542699786&sr=8-1&keywords=Los+cuentos+de+Beedle+el+Bardo"><img src = "./img/libro11.jpg" class = "otros"></a></td>
+				</tr>
+				<tr>
+					<td><h4>2012</h4></td>
+					<td text align = "center"><h3>The Casual Vacancy </h3></td>
+					<td text align = "center"><h3>Una vacante imprevista</h3></td>
+					<td><p>La novela trata temas como la violencia familiar, la autolesión, el sexo inseguro entre adolescentes, el alcoholismo, la drogadicción, el tabaquismo y el acoso escolar, entre otros.</p></td>
+					<td><a href = "https://www.amazon.es/Una-vacante-imprevista-Novela-Rowling/dp/8498384923/ref=sr_1_1?ie=UTF8&qid=1542700133&sr=8-1&keywords=una+vacante+imprevista"><img src = "./img/libro12.jpg" class = "otros"></a></td>
+				</tr>
+			</tbody>
+		</table>
+		</article>
+
+<!----------------------------------------- Barra de anuncios (Aside) ----------------------------------------------------->		
+	<aside style = " background-image: url('./img/fondotienda.png')" class = "aside1">
+		<h1>Tienda Online (AMAZON)</h1>
+		<a href = 'https://www.amazon.es/Harry-Potterr-SUDADERA-CAPUCHA-HOGWARTS/dp/B075QLW8J5/ref=sr_1_19?ie=UTF8&qid=1540887440&sr=8-19&keywords=harry+potter' target = "_blank"><img src = "./img/sudadera harry.png" alt = "Sudadera" class = "sudadera"></a>
+		<h4>Sudadera de Hogwarts</h4>
+		<a href = 'https://www.amazon.es/Harry-Potter-Cinereplicas-Gryffindor-Purple/dp/B00IYIENWQ/ref=sr_1_4?ie=UTF8&qid=1540887440&sr=8-4&keywords=harry+potter' target = "_blank"><img src = "./img/bufanda.png" alt = "Bufanda" class = "bufanda"></a>
+		<h4>Bufanda de Gryffindor</h4>
+		<a href = 'https://www.amazon.es/Noble-Collection-NN8415-Varita-resina/dp/B004GWYC1G/ref=sr_1_3?ie=UTF8&qid=1540889275&sr=8-3&keywords=varita+harry+potter' target = "_blank"><img src = "./img/varita.png" alt = "Varita" class = "varita"></a>
+		<h4>Varita de Harry Potter</h4>
+		</aside>
+
+<!----------------------------------------- Barra casas de howards (Footer) ----------------------------------------------------->		
+		<footer style = " background-image: url('./img/gorrete.png')" width = "100%">
+			<h3>Casas de Hogwarts</h3>
+			<a href = 'https://es.wikipedia.org/wiki/Gryffindor' target = "_blank"> <img src = "./img/Gryffindor.png" alt = "Gryffindor" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Hufflepuff' target = "_blank"><img src = "./img/Hufflepuff.png" alt = "Hufflepuff" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Ravenclaw' target = "_blank"><img src = "./img/Ravenclaw.png" alt = "Ravenclaw" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Slytherin' target = "_blank"><img src = "./img/Slytherin.png" alt = "Slytherin" hspace = "60px"></a>
+		</footer>
+
+<!----------------------------------------- Firma y coyrigth (Footer)2 ----------------------------------------------------->		
+		<footer class = "footer2" style = " background-image: url('./img/fondofooter2.jpeg')">Creada por el grupo de 1DAM del CIFP Tartanga LHII y formado por: Jonatan Jiménez, Ander Valero, Eneko Ortiz y Pablo Angulo. Copyrigth derechos reservados 2018</footer>
+	</div>
+</body>
+</html>

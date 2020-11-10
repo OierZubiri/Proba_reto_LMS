@@ -1,0 +1,101 @@
+<!----Pagina Acceder.html Creacion Jonatan y Eneko --->
+
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+	<title>Harry Potter 1DAM</title>
+	<link rel = "shortcut icon" href = "./img/HP.ico" type = "image/ico"/>
+	<!-- Linkeo de CSS -->	
+	<link rel = "stylesheet" type = "text/css" href = "./css/reto.css">
+</head>
+<body>
+
+<!------------------------------------------------ Cabecera (Header) -------------------------------------------------------->	
+<header>
+
+<!-- Menu secundario de registro y usuario -->
+	<nav>
+		<ul>
+			<li class = "menu-nave"><a href = "acceder.html">Acceder</a></li>
+			<li class = "menu-nave"><a href = "registrarse.html">Registrarse</a></li>
+		</ul>		
+	</nav>
+
+	<!-- Banner -->
+    <img src = "./img/bannerharry.jpg" alt = "BannerHarry" width = "100%" />
+</header> 
+
+<!--------------------------------------------- Menu principal ----------------------------------------------------->
+    <nav>
+		<ul class = "menu-nav">
+			<li class = "menu-nave"><a href = "index.html">Inicio</a></li>
+			<li class = "menu-nave"><a href = "peliculas.html">Peliculas</a></li>
+			<li class = "dropdown">
+				<a href = "libros.html">Libros</a>
+				<div class = "dropdown-content">
+					<a href = "jk.html">J.K. Rowling</a>
+				</div>
+			 </li>
+			 <li class = "dropdown">
+				<a href = "actores.html">Actores Principales</a>
+				<div class = "dropdown-content">
+					<a href = "harry.html"> Daniel Radcliffe (Harry Potter)</a>
+					<a href = "hermione.html"> Emma Watson (Hermione Granger)</a>
+					<a href = "ron.html"> Rupert Grint (Ron Weasley)</a>
+				</div>
+			 </li>
+			 <li class = "menu-nave"><a href = "sobrenosotros.html">Sobre nosotros</a></li>
+			 <li class = "cuenta">
+			 </li>
+		</ul>		
+	</nav>
+	<div class = "contenedor">
+
+<!--------------------------------------------- Articulo (Article) ----------------------------------------------------->
+	<article style=" background-image: url('./img/fondoarticle.jpg')">
+			
+			<form>
+			<fieldset>
+				<legend> Iniciar sesi&oacute;n </legend>
+				<label for = "email"> Email: </label> 
+					<input type = "email" name = "email" id = "email" size = "40" = maxlength = "40" placeholder = "email" required />
+				<br/> <br/>
+				<label for = "clave"> Clave: </label>
+						<input type = "password" name = "clave" id = "clave" size = "40" maxlength = "40" placeholder = "clave" required />
+				<br/> <br/>
+						<input type = "checkbox" name = "recordarme" value = "recordarme" id = "recordarme"/>
+				<label for = "recordarme"> Recordarme </label> 
+				<br/> <br/>
+				<input type = "submit" value = "Acceder"/>
+			</fieldset>
+			<br/>
+
+			</form>
+			
+		</article>
+
+<!----------------------------------------- Barra de anuncios (Aside) ----------------------------------------------------->		
+	<aside style = " background-image: url('./img/fondotienda.png')" class = "aside1">
+		<h1>Tienda Online (AMAZON)</h1>
+		<a href = 'https://www.amazon.es/Harry-Potterr-SUDADERA-CAPUCHA-HOGWARTS/dp/B075QLW8J5/ref=sr_1_19?ie=UTF8&qid=1540887440&sr=8-19&keywords=harry+potter' target = "_blank"><img src = "./img/sudadera harry.png" alt = "Sudadera" class = "sudadera"></a>
+		<h4>Sudadera de Hogwarts</h4>
+		<a href = 'https://www.amazon.es/Harry-Potter-Cinereplicas-Gryffindor-Purple/dp/B00IYIENWQ/ref=sr_1_4?ie=UTF8&qid=1540887440&sr=8-4&keywords=harry+potter' target = "_blank"><img src = "./img/bufanda.png" alt = "Bufanda" class = "bufanda"></a>
+		<h4>Bufanda de Gryffindor</h4>
+		<a href = 'https://www.amazon.es/Noble-Collection-NN8415-Varita-resina/dp/B004GWYC1G/ref=sr_1_3?ie=UTF8&qid=1540889275&sr=8-3&keywords=varita+harry+potter' target = "_blank"><img src = "./img/varita.png" alt = "Varita" class = "varita"></a>
+		<h4>Varita de Harry Potter</h4>
+		</aside>
+
+<!----------------------------------------- Barra casas de howards (Footer) ----------------------------------------------------->		
+		<footer style = " background-image: url('./img/gorrete.png')" width = "100%">
+			<h3>Casas de Hogwarts</h3>
+			<a href = 'https://es.wikipedia.org/wiki/Gryffindor' target = "_blank"> <img src = "./img/Gryffindor.png" alt = "Gryffindor" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Hufflepuff' target = "_blank"><img src = "./img/Hufflepuff.png" alt = "Hufflepuff" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Ravenclaw' target = "_blank"><img src = "./img/Ravenclaw.png" alt = "Ravenclaw" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Slytherin' target = "_blank"><img src = "./img/Slytherin.png" alt = "Slytherin" hspace = "60px"></a>
+		</footer>
+
+<!----------------------------------------- Firma y coyrigth (Footer)2 ----------------------------------------------------->		
+		<footer class = "footer2" style = " background-image: url('./img/fondofooter2.jpeg')">Creada por el grupo de 1DAM del CIFP Tartanga LHII y formado por: Jonatan Jiménez, Ander Valero, Eneko Ortiz y Pablo Angulo. Copyrigth derechos reservados 2018</footer>
+	</div>
+</body>
+</html>

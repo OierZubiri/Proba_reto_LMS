@@ -1,0 +1,228 @@
+﻿<!----Pagina harry.html Creacion Eneko --->
+
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+	<title>Harry Potter 1DAM</title>
+	<link rel = "shortcut icon" href = "./img/HP.ico" type = "image/ico"/>
+	<!-- Linkeo de CSS -->	
+	<link rel = "stylesheet" type = "text/css" href = "./css/reto.css">
+</head>
+<body>
+
+<!------------------------------------------------ Cabecera (Header) -------------------------------------------------------->	
+<header>
+
+<!-- Menu secundario de registro y usuario -->
+	<nav>
+		<ul>
+			<li class = "menu-nave"><a href = "acceder.html">Acceder</a></li>
+			<li class = "menu-nave"><a href = "registrarse.html">Registrarse</a></li>
+		</ul>		
+	</nav>
+
+	<!-- Banner -->
+    <img src = "./img/bannerharry.jpg" alt = "BannerHarry" width = "100%" />
+</header> 
+
+<!--------------------------------------------- Menu principal ----------------------------------------------------->
+    <nav>
+		<ul class = "menu-nav">
+			<li class = "menu-nave"><a href = "index.html">Inicio</a></li>
+			<li class = "menu-nave"><a href = "peliculas.html">Peliculas</a></li>
+			<li class = "dropdown">
+				<a href = "libros.html">Libros</a>
+				<div class = "dropdown-content">
+					<a href = "jk.html">J.K. Rowling</a>
+				</div>
+			 </li>
+			 <li class = "dropdown">
+				<a href = "actores.html">Actores Principales</a>
+				<div class = "dropdown-content">
+					<a href = "harry.html"> Daniel Radcliffe (Harry Potter)</a>
+					<a href = "hermione.html"> Emma Watson (Hermione Granger)</a>
+					<a href = "ron.html"> Rupert Grint (Ron Weasley)</a>
+				</div>
+			 </li>
+			 <li class = "menu-nave"><a href = "sobrenosotros.html">Sobre nosotros</a></li>
+			 <li class = "cuenta">
+			 </li>
+		</ul>		
+	</nav>
+	<div class = "contenedor">
+
+<!--------------------------------------------- Articulo (Article) ----------------------------------------------------->
+	<article style = " background-image: url('./img/fondoarticle.jpg')">
+		<h1>Daniel Radcliffe</h1>
+		<img src = "./img/harry.jpg" class = "princi">
+		<h3>Información general</h3>
+		<p>
+			Daniel Jacob Radcliffe (Fulham, Londres;23 de julio de 1989) es un actor inglés, principalmente conocido por haber protagonizado la saga cinematográfica de Harry Potter.Fundamentalmente por ello, ha recaudado una fortuna de 23 millones de libras esterlinas (algo más de 27 millones de euros), parte de la cual ha destinado a organizaciones benéficas.
+		</p>
+		<p>
+			Sus comienzos profesionales se remontan a 1998, cuando actuó en el telefilme David Copperfield adaptación de la novela homónima de Charles Dickens.3​ Posteriormente, debutó con El sastre de Panamá (2001) y apareció en otras películas como en la independiente December Boys y la televisiva My Boy Jack. En 2007 protagonizó la obra de teatro Equus, del dramaturgo Peter Shaffer, en la que interpretaba al perturbado Alan Strang. Recibió críticas elogiosas, tanto en Inglaterra como en los Estados Unidos, además de varios premios y distinciones. Por otra parte, ha manifestado su ilusión por ser guionista o director. También ha mencionado su inclinación por la música, aunque ha decidido dedicarse de lleno a la actuación. En marzo de 2011, Radcliffe volvió a los escenarios de Nueva York con el musical How to Succeed in Business Without Really Trying​ y en 2012 se estrenó The Woman in Black.
+		</p>
+		<p>
+			Radcliffe ha vivido desde sus primeros años en el distrito de Fulham, al oeste de Kensington y Chelsea; de hecho, el actor se ha confesado fanático del equipo de fútbol originario de esa zona, el Fulham Football Club.
+		</p>
+		<h3>Carrera cinematográfica</h3>
+		<table border = "2" cellpadding = "4" cellspacing = "0" align = "center" style = "font-size:90%">
+			<tbody>
+				<tr bgcolor = "#CCCCCC">
+					<th align = "center" width = "30px">Año</th>
+					<th align = "center" width = "210px">Título original</th>
+					<th align = "center" width = "210px">Título en España</th>
+					<th align = "center" width = "110px">Rol</th>
+					<th align = "center" width = "110px">Director</th>
+				</tr>
+				<tr>
+					<td rowspan = "2">2001</td>
+					<td>The Tailor of Panama</td>
+					<td>El sastre de Panamá</td>
+					<td>Mark Pendel</td>
+					<td>John Boorman</td>
+				</tr>
+				<tr>
+					<td>Harry Potter and the Philosopher's Stone</td>
+					<td>Harry Potter y la piedra filosofal</td>
+					<td rowspan = "5">Harry Potter</td>
+					<td rowspan = "2">Chris Columbus</td>
+				</tr>
+				<tr>
+					<td>2002</td>
+					<td>Harry Potter and the Chamber of Secrets</td>
+					<td>Harry Potter y la cámara secreta</td>
+				</tr>
+				<tr>
+					<td>2004</td>
+					<td>Harry Potter and the Prisoner of Azkaban</td>
+					<td>Harry Potter y el prisionero de Azkaban</td>
+					<td>Alfonso Cuarón</td>
+				</tr>
+				<tr>
+					<td>2005</td>
+					<td>Harry Potter and the Goblet of Fire</td>
+					<td>Harry Potter y el cáliz de fuego</td>
+					<td>Mike Newell</td>
+				</tr>
+				<tr>
+					<td rowspan = "2">2007</td>
+					<td>Harry Potter and the Order of the Phoenix</td>
+					<td>Harry Potter y la Orden del Fénix</td>
+					<td>David Yates</td>
+				</tr>
+				<tr>
+					<td><i>December Boys</td>
+					<td>Los chicos de diciembre</td>
+					<td>Maps</td>
+					<td>Rod Hardy</td>
+				</tr>
+				<tr>
+					<td>2009</td>
+					<td>Harry Potter and the Half-Blood Prince</td>
+					<td>Harry Potter y el misterio del príncipe</td>
+					<td rowspan = "3">Harry Potter</td>
+					<td rowspan = "3">David Yates</td>
+				</tr>
+				<tr>
+					<td>2010</td>
+					<td>Harry Potter and the Deathly Hallows - Part 1</td>
+					<td>Harry Potter y las Reliquias de la Muerte - Parte 1</td>
+					</tr>
+				<tr>
+					<td>2011</td>
+					<td>Harry Potter and the Deathly Hallows - Part 2</td>
+					<td>Harry Potter y las Reliquias de la Muerte - Parte 2</td>
+				</tr>
+				<tr>
+					<td>2012</td>
+					<td>The Woman in Black</td>
+					<td>La mujer de negro</td>
+					<td>Arthur Kipps</td>
+					<td>James Watkins</td>
+				</tr>
+				<tr>
+					<td>2013</td>
+					<td>Kill Your Darlings</td>
+					<td>Amores asesinos</td>
+					<td>Allen Ginsberg</td>
+					<td>John Krokidas</td>
+				</tr>
+				<tr>
+					<td rowspan = "2">2014</td>
+					<td>What If</td>
+					<td>Amigos de más</td>
+					<td>Wallace</td>
+					<td>Michael Dowse</td>
+				</tr>
+				<tr>
+					<td colspan = "2">Horns</td>
+					<td>Ignatius «Ig» Perrish</td>
+					<td>Alexandre Aja</td>
+				</tr>
+				<tr>
+					<td rowspan = "2">2015</td>
+					<td colspan = "2">Victor Frankenstein</td>
+					<td>Igor</td>
+					<td>Paul McGuigan</td>
+				</tr>
+				<tr>
+					<td>Trainwreck</td>
+					<td>Y de repente tú</td>
+					<td>Paseador de perros</td>
+					<td>Judd Apatow</td>
+				</tr>
+				<tr>
+					<td rowspan = "3">2016</td>
+					<td colspan = "2">Swiss Army Man</td>
+					<td>Manny</td>
+					<td>Dan Kwan<br/> Daniel Scheinert
+					</td>
+				</tr>
+				<tr>
+					<td>Now You See Me 2</td>
+					<td>Ahora me ves... 2</td>
+					<td>Walter Tressler</td>
+					<td>Jon M. Chu</td>
+				</tr>
+				<tr>
+					<td colspan = "2">Imperium</td>
+					<td>Nate Foster</td>
+					<td>Daniel Ragussis</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>Jungle</td>
+					<td>La Jungla</td>
+					<td>Yossi Ghinsberg</td>
+					<td>Greg McLean</td>
+				</tr>
+			</tbody>
+		</table>
+	</article>
+
+<!----------------------------------------- Barra de anuncios (Aside) ----------------------------------------------------->		
+	<aside style = " background-image: url('./img/fondotienda.png')" class = "aside1">
+		<h1>Tienda Online (AMAZON)</h1>
+		<a href = 'https://www.amazon.es/Harry-Potterr-SUDADERA-CAPUCHA-HOGWARTS/dp/B075QLW8J5/ref=sr_1_19?ie=UTF8&qid=1540887440&sr=8-19&keywords=harry+potter' target = "_blank"><img src = "./img/sudadera harry.png" alt = "Sudadera" class = "sudadera"></a>
+		<h4>Sudadera de Hogwarts</h4>
+		<a href = 'https://www.amazon.es/Harry-Potter-Cinereplicas-Gryffindor-Purple/dp/B00IYIENWQ/ref=sr_1_4?ie=UTF8&qid=1540887440&sr=8-4&keywords=harry+potter' target = "_blank"><img src = "./img/bufanda.png" alt = "Bufanda" class = "bufanda"></a>
+		<h4>Bufanda de Gryffindor</h4>
+		<a href = 'https://www.amazon.es/Noble-Collection-NN8415-Varita-resina/dp/B004GWYC1G/ref=sr_1_3?ie=UTF8&qid=1540889275&sr=8-3&keywords=varita+harry+potter' target = "_blank"><img src = "./img/varita.png" alt = "Varita" class = "varita"></a>
+		<h4>Varita de Harry Potter</h4>
+		</aside>
+
+<!----------------------------------------- Barra casas de howards (Footer) ----------------------------------------------------->		
+		<footer style = " background-image: url('./img/gorrete.png')" width = "100%">
+			<h3>Casas de Hogwarts</h3>
+			<a href = 'https://es.wikipedia.org/wiki/Gryffindor' target = "_blank"> <img src = "./img/Gryffindor.png" alt = "Gryffindor" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Hufflepuff' target = "_blank"><img src = "./img/Hufflepuff.png" alt = "Hufflepuff" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Ravenclaw' target = "_blank"><img src = "./img/Ravenclaw.png" alt = "Ravenclaw" hspace = "60px"></a>
+			<a href = 'https://es.wikipedia.org/wiki/Slytherin' target = "_blank"><img src = "./img/Slytherin.png" alt = "Slytherin" hspace = "60px"></a>
+		</footer>
+
+<!----------------------------------------- Firma y coyrigth (Footer)2 ----------------------------------------------------->		
+		<footer class = "footer2" style = " background-image: url('./img/fondofooter2.jpeg')">Creada por el grupo de 1DAM del CIFP Tartanga LHII y formado por: Jonatan Jiménez, Ander Valero, Eneko Ortiz y Pablo Angulo. Copyrigth derechos reservados 2018</footer>
+	</div>
+</body>
+</html>
